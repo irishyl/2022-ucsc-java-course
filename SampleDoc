@@ -1,0 +1,89 @@
+import java.util.Scanner;
+import java.util.InputMismatchException;
+
+/**
+ * This is solution for Homework#6
+ * 
+ * All solutions have been put in one place to minimize
+ * number of classes
+ * 
+ * The solution combines what was done in homework #6.1 in separate class
+ * In this solution the solutions of homework #6.2 is combined in one class
+ * and tested from one main method.
+ * 
+ * @author bineetsharma
+ * @version 1.0
+ * @since 03-1-20NN
+ * 
+ * @version 1.1
+ * @since 12-21-20NN
+ *        Wrote comments, formatted the code and eliminated need for continue
+ *        statement
+ * 
+ */
+
+public class SampleDoc {
+
+    // Homework #6.1
+    /** 
+     * @param readInput 
+     *            : Scanner passed from main method 
+     * 
+     *  A loop is used to continue asking for valid choice. The 
+     *  nextInt method of scanner is used which throws 
+     *  InputMistatchException if the value is not able to extracted. 
+     *  When the wrong value is entered the input is still in input 
+     *   
+     *     <<write more comments if needed>> 
+     *   
+     *   
+     */ 
+     
+    public static int getUserChoice(Scanner readInput){ 
+         <<more code >> 
+        do { // Loop until we have correct input 
+     <<more code>> 
+        } while (true); 
+        //if you are here you got the correct choice 
+        return inputInt; 
+     } // end of getUserChoice class
+
+    // Homework #6.2
+    /**
+     * @param myFloats
+     *                  : assigns two floats from user into the array elements
+     * @param readInput
+     *                  : Scanner passed from main method
+     * 
+     *                  A loop is used to continue asking for valid values. The
+     *                  nextFloat method of scanner is used which throws
+     *                  InputMistatchException if the value is not able to
+     *                  extracted.’
+     * 
+     *                  <<more comments if needed>>
+     */
+    public static << your return>> getTwoFloats(<<your parameter>>){ 
+           << our code goes here>> 
+    } // end of getTwoFloats
+
+    /** 
+     * @param args 
+     *            : not used in this program 
+     * For Homework #6.1 all important 
+     * codes for this program is written in getUserChoice method. The 
+     * <<more comment>> 
+     * 
+     * For Homework #6.2 all important 
+     * codes for this program is written in 
+     * getTwoFloats method. The main method creates the Scanner 
+     * <<more comment>> 
+     * 
+     */ 
+ 
+    public static void main(String[] args) { 
+         
+        // Declare Scanner Here and passed where it is needed 
+ 
+        <<your code goes here>> 
+    } // end of main
+} // end of class HW_6_Solution
